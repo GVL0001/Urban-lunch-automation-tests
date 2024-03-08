@@ -37,7 +37,7 @@ def negative_assert_code_400(kit_body, auth_token):
 
 # PARA PROBAR LOS TEST CASES AUTOMATIZADOS: INGRESA EL COMANDO "Pytest" en la terminal
 
-# №1 El número permitido de caracteres (1): kit_body = { "name": "a"}
+# №1 El número permitido de caracteres (1)
 # Resultado esperado: Código de respuesta: 201 El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
 def test_create_kit_1_letter_in_name_get_success_response():
     auth_token = get_new_user_token("Andrea")
@@ -54,7 +54,7 @@ def test_create_kit_511_letter_in_name_get_success_response():
 
 
 # №3 El número de caracteres es menor que la cantidad permitida (0)
-# Resultado esperado:Código de respuesta: 400
+# Resultado esperado: Código de respuesta: 400
 def test_create_kit_0_letter_in_name_get_error_response():
     auth_token = get_new_user_token("Andrea")
     kit_body = get_kit_body("")
@@ -78,7 +78,7 @@ def test_create_kit_special_caracter_in_name_get_succes_response():
 
 
 # №6 Se permiten espacios
-# Resultado esperado: Código de respuesta: 201 El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
+# Resultado esperado: Código de respuesta: 201; El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
 def test_create_kit_with_spaces_in_name_get_succes_response():
     auth_token = get_new_user_token("Andrea")
     kit_body = get_kit_body("A aaa")
@@ -86,7 +86,7 @@ def test_create_kit_with_spaces_in_name_get_succes_response():
 
 
 # №7 Se permiten números
-# Resultado esperado: Código de respuesta: 201 El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
+# Resultado esperado: Código de respuesta: 201; El campo "name" del cuerpo de la respuesta coincide con el campo "name" del cuerpo de la solicitud
 def test_create_kit_numbers_in_name_get_succes_response():
     auth_token = get_new_user_token("Andrea")
     kit_body = get_kit_body("123")
