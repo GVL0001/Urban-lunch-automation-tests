@@ -21,7 +21,8 @@ El proyecto contiene los siguientes archivos:
 - `configuration.py`: Contiene las constantes de configuración, como la URL del servicio y las rutas de las API.
 - `data.py`: Almacena los datos de prueba, como los encabezados y los cuerpos de solicitud.
 - `sender_stand_request.py`: Contiene las funciones para enviar solicitudes HTTP a la API.
-- `create_kit_name_kit_test.py`: Incluye las funciones de prueba y las aserciones para validar los casos de prueba.
+- `create_user_test.py`: Este archivo contiene las pruebas automatizadas para la funcionalidad de creación de usuarios. Se verifica que el campo "firstName" cumpla con los requisitos establecidos.
+- `create_kit_name_kit_test.py`: Este archivo contiene las pruebas automatizadas para la funcionalidad de creación de kits de usuarios. Se verifica que el campo "name" cumpla con los requisitos establecidos.
 - `README.md`: Este archivo, que proporciona información general sobre el proyecto.
 - `.gitignore`: Archivo de configuración para excluir archivos y directorios innecesarios del control de versiones.
 
