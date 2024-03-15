@@ -1,4 +1,4 @@
-# Pruebas Automatizadas para la Creación de Kits de Usuario
+# Pruebas Automatizadas para la Creación de Usuarios y Creación de Kits de Usuario
 
 Este proyecto contiene pruebas automatizadas para la funcionalidad de creación de usuarios y creación de kits de usuarios en una aplicación web.
 
