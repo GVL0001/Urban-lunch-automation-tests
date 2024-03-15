@@ -64,7 +64,7 @@ Antes de ejecutar las pruebas, asegúrate de tener instalados los siguientes paq
 - **pytest**
 - **requests**
 
-Para ejecutar las pruebas, primero actualiza la constante que contiene la URL que se encuentra en el archivo data.py, después; usa la terminal y ejecuta el comando "pytest" seguido del nombre del archivo que contiene las pruebas.  
+Para ejecutar las pruebas, primero actualiza la constante que contiene la URL que se encuentra en el archivo configuration.py, después; usa la terminal y ejecuta el comando "pytest" seguido del nombre del archivo que contiene las pruebas.  
 
 **Pruebas para la creación de usuario**: pytest create_user_test.py  
 
